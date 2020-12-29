@@ -1,0 +1,127 @@
+*, body {
+    padding:0;
+    margin: 0;
+    font-family: sans-serif;
+    background:#d4d4d4;
+}
+.container{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 5rem auto;
+    margin-bottom: 2rem;
+    margin-top: 8%;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 80%;
+    position: fixed;
+    border: 3px solid #d400d4;
+    background-color: #56115c;
+}
+.display-container{
+    width: 93%;
+    height: 14%;
+    top: 1%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    position: fixed;
+    border: 3px solid #310231;
+    background-color: #9e499e;
+}
+.raw-display{
+    font-size: 6vh;
+    font-stretch: normal;
+    font-weight: 700;
+    width: 80%;
+    height: 100%;
+    margin-right: 3px;
+    font-size: 6vh;
+    text-align: right;
+    background-color: #9e499e;
+}
+.back{
+    width: 24%;
+    height: 100%;
+    background-color: #4655e2;
+    font-size: 5.2vh;
+    font-stretch: normal;
+}
+.buttons{
+    width: 95%;
+    height: 83%;
+    margin-top: 22%;
+    background-color: #310231;
+}
+
+.digits{
+    background-color: #d80f8b;
+    width: 23%;
+    height: 19.5%;
+    font-size: 8vh;
+    font-weight: 100;
+    font-stretch: normal;
+}
+.operator{
+    background-color: #4655e2;
+    width: 23%;
+    height: 19.5%;
+    font-size: 8vh;
+    font-weight: 100;
+    font-stretch: normal;
+}
+.decimal{
+    background-color: #d80f8b;
+    width: 23%;
+    height: 19.5%;
+    font-size: 8vh;
+    font-weight: 1000;
+    font-stretch: normal;
+}
+.equals{
+    background-color: #4655e2;
+    width: 23%;
+    height: 19.5%;
+    font-size: 8vh;
+    font-weight: 100;
+    font-stretch: normal;
+}
+.AC{
+    background-color: #4655e2;
+    width: 23%;
+    height: 19.5%;
+    font-size: 8vh;
+    font-weight: 100;
+    font-stretch: normal;
+}
+.decimal{
+    background-color: #4655e2;
+    width: 23%;
+    height: 19.5%;
+    font-size: 8vh;
+    font-weight: 100;
+    font-stretch: normal;
+}
+a{
+    background-color: #DFBFDF;
+    color:blueviolet;
+    font-size: 25px;
+    font-weight: 700;
+    padding-right: 20px;
+    text-shadow: -1px 1.5px 0px rgba(138,43,226,0.4);
+}
+footer{
+    background-color: #DFBFDF;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    font-size: 25px;
+    font-weight: 700;
+    color: darkmagenta;
+    text-shadow: -1px 1.5px 0px rgba(139,0,139,0.4);
+    text-align: right;
+}

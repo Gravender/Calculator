@@ -5,11 +5,38 @@
   <title>Calculator</title>
   <meta name="description" content="A basic Browser based Calculator">
   <meta name="author" content="Gravender">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src="js/calculator.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-  <div id="containerGrid"></div>
+  <div class="container" id="container">
+    <div class = "display-container">
+      <div class = "raw-display" id = "raw-display">0</div>
+      <button class= "back" data-type="back" id="back" type="button">Back</button>
+    </div>
+    <div class = "buttons">
+      <button class= "AC" data-type="reset" id="AC" type="button">AC</button>
+      <button class= "operator" data-type="operator" id="exp" type="button">x^y</button>
+      <button class= "operator" data-type="operator" id="mod" type="button">%</button>
+      <button class= "operator" data-type="operator" id="div" type="button">/</button>
+      <button class= "digits" data-type="number" id="digit-9" type="button">9</button>
+      <button class= "digits" data-type="number" id="digit-8" type="button">8</button>
+      <button class= "digits" data-type="number" id="digit-7" type="button">7</button>
+      <button class= "operator" data-type="operator" id="mult" type="button">*</button>
+      <button class= "digits" data-type="number" id="digit-6" type="button">6</button>
+      <button class= "digits" data-type="number" id="digit-5" type="button">5</button>
+      <button class= "digits" data-type="number" id="digit-4" type="button">4</button>
+      <button class= "operator" data-type="operator" id="sub" type="button">-</button>
+      <button class= "digits" data-type="number" id="digit-3" type="button">3</button>
+      <button class= "digits" data-type="number" id="digit-2" type="button">2</button>
+      <button class= "digits" data-type="number" id="digit-1" type="button">1</button>
+      <button class= "operator" data-type="operator" id="add" type="button">+</button>
+      <button class= "operator" data-type="pos-neg" id="pos-neg" type="button">+/-</button>
+      <button class= "digits" data-type="number" id="digit-0" type="button">0</button>
+      <button class= "decimal" data-type="decimal" id="decimal" type="button">.</button>
+      <button class= "equals" data-type="equal" id="equals" type="button">=</button>
+    </div>
+  </div>
+  <script src="js/calculator.js"></script>
   <footer>Made by: <a href=https://github.com/Gravender> Gravender</a></footer>
 </body>
 </html>
